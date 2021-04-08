@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	. "github.com/BaymaxRice/leetcode"
 	"math"
 )
-import . "baymax/leetcode"
 
 /**
  * Definition for a binary tree node.

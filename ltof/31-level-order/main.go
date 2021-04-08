@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "baymax/leetcode"
 	"fmt"
+	. "github.com/BaymaxRice/leetcode"
 )
 
 func levelOrder(root *TreeNode) []int {
