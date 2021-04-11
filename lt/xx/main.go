@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	. "github.com/BaymaxRice/leetcode"
+)
 
 func xx(input [][]int) [][]int {
 	if len(input) == 0 {
@@ -30,6 +33,8 @@ func xx(input [][]int) [][]int {
 
 func main() {
 	fmt.Println(xxx([][]int{{1, 2}, {1}, {1, 2, 3}}))
+
+	fmt.Println(Tree2Arr(GenerateTree([]int{1, -1, 3, -1, -1, 2})))
 }
 
 func printArr1(arr [][]int) [][]int {

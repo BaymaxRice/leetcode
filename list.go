@@ -21,3 +21,13 @@ func GenerateList(input []int) *ListNode {
 	}
 	return head
 }
+
+func List2Arr(head *ListNode) []int {
+	retArr := make([]int, 0, 8)
+	tmpHead := head
+	for tmpHead != nil {
+		retArr = append(retArr, tmpHead.Val)
+		tmpHead = tmpHead.Next
+	}
+	return retArr
+}
