@@ -13,7 +13,8 @@ var strings = [...]string{"", "Hello", "foo", "bar", "foo", "f00", "%*&^*&^&", "
 
 func TestMergeSort(t *testing.T) {
 	data := ints
-	fmt.Printf("merge sort: %+v\n", MergeSort(data[:]))
+	//fmt.Printf("merge sort: %+v\n", MergeSort(data[:]))
+	fmt.Printf("heap sort: %+v\n", HeapSort(data[:]))
 	sort.Ints(data[:])
 	fmt.Printf("actual sort: %+v\n", data)
 }
